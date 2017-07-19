@@ -1,0 +1,24 @@
+<div class="container body-content span=8 offset=2">
+    <div class="well">
+        <form class="form-horizontal" method="POST" action="/comments/edit/{{comment._id}}">
+            <fieldset>
+
+                <div class="col-md-12">
+                    <article>
+                        <h2>{{comment.content}}</h2>
+                    </article>
+                </div>
+
+                {{#if isAuthorComment}}
+                    <a class="btn btn-danger btn-xs"
+                       href="/comment/delete/{{comment._id}}">Delete Comment &raquo;</a>
+                    <a class="btn btn-success btn-xs"
+                       href="/comment/edit/{{comment._id}}">Edit Comment &raquo;</a>
+
+                {{/if}}
+
+
+            </fieldset>
+        </form>
+    </div>
+</div>

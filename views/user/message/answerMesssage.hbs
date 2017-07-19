@@ -1,0 +1,28 @@
+<div  class="container body-content span=8 offset=2">
+    <div class="well">
+        <form class="form-horizontal" method="post" action="/user/sendMessage/{{message.author._id}}">
+            <fieldset>
+                <div class="form-group">
+                    <label >Message</label>
+
+
+                 <div>
+                   <label class="col-sm-4 control-label">to author:  {{message.author.fullName}}</label>
+                 </div>
+
+                    <div class="col-sm-4 ">
+                       <textarea class="form-control" id="messageContent" rows="5" name="content" required>
+                       </textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <a class="btn btn-default" href="/user/readMessages/">Cancel</a>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>

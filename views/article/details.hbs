@@ -1,0 +1,101 @@
+<div class="container body-content">
+    <div class="row">
+        <div class="col-md-12">
+            <article>
+                <header>
+                    <h2>{{article.title}}</h2>
+                </header>
+                <p>
+                    {{article.content}}
+                </p>
+                <small class="author">
+                    {{article.author.fullName}}
+                </small>
+
+
+
+               {{#if user}}
+                   <form class="form-horizontal" method="POST" action="/article/comments/create/{{article.id}}">
+                       <fieldset>
+
+                           <div class="form-group">
+                               <label class="col-sm-4 control-label"
+                                      for="articleContent">Comment</label>
+                               <div class="col-sm-6">
+ <textarea class="form-control" id="commentContent" rows="5"
+           name="content" required></textarea>
+                               </div>
+                           </div>
+
+                           <div class="form-group">
+                               <div class="col-sm-4 col-sm-offset-4">
+                                   <button type="submit" class="btn btn-primary">Submit</button>
+                               </div>
+                           </div>
+
+
+
+                       </fieldset>
+                   </form>
+               {{/if}}
+
+
+                <footer>
+                    <div class="pull-left">
+                        {{# each article.tags}}
+                            <a class="btn btn-default btn-xs"
+                               href="/tag/{{this.name}}">{{ this.name }}</a>
+                        {{/each}}
+                    </div>
+                    <div class="pull-right">
+                        {{#if isUserAuthorized}}
+                            <a class="btn btn-success btn-xs"
+                               href="/article/edit/{{article.id}}">Edit &raquo;</a>
+                            <a class="btn btn-danger btn-xs"
+                               href="/article/delete/{{article.id}}">Delete &raquo;</a>
+                        {{/if}}
+                        <a class="btn btn-default btn-xs" href="/">Back &raquo;</a>
+                    </div>
+                </footer>
+            </article>
+
+
+
+
+
+                {{#each comment}}
+                    <div class="col-lg-3 shadow-bottom-sm home-feed-md margin-top-sm">
+                        <h6>By: {{this.author.fullName}}</h6>
+
+                        <div>
+                            {{this.content}}
+                        </div>
+
+                        <div>
+                           likes: {{this.likes}}
+                        </div>
+
+                        <h5>{{this.date}}</h5>
+
+
+                        <a class="btn btn-success btn-xs"
+                           href="/comment/readComment/{{this._id}}">Read Comment &raquo;</a>
+
+                        <a class="btn btn-success btn-xs"
+                           href="/liked/likes/{{this._id}}">Like &raquo;</a>
+
+
+
+
+
+                    </div>
+                {{/each}}
+
+
+
+
+
+
+        </div>
+    </div>
+</div>

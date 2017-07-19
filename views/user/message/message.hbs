@@ -1,0 +1,61 @@
+<div class="container body-content">
+    <div class="well">
+        <a
+                href="/user/readMessages">Read your Messages</a>
+
+
+        {{#if user}}
+            <form class="form-horizontal" method="POST" action="/user/findUser/">
+                <fieldset>
+
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label"
+                               for="articleContent">search by Email:</label>
+                        <div class="col-sm-6">
+ <textarea class="form-control" id="searchUser" rows="1"
+           name="content" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <button type="submit" class="btn btn-primary">search</button>
+                        </div>
+                    </div>
+
+
+
+                </fieldset>
+            </form>
+        {{/if}}
+
+
+
+
+        <h2>All Users</h2>
+        <div class="row">
+            <table class="table table-striped table-hover ">
+                <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each users}}
+                    <tr {{#if this.isAdmin }}class="info" {{/if}}>
+
+                        <td>{{ this.fullName }}</td>
+                        <td>{{ this.email }}</td>
+                        <td>
+                            <a
+                                    href="/user/sendMessage/{{this.id}}">Send Message</a>
+                        </td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+<form class="form-horizontal" method="POST" action="/user/messageFromUser/">
+    <fieldset>
+        <div class="form-group">
+            <label class="col-sm-4 control-label"
+                   for="articleContent">search by name:</label>
+            <div class="col-sm-6">
+ <textarea class="form-control" id="searchUser" rows="1"
+           name="nameUser" required></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4 col-sm-offset-4">
+                <button type="submit" class="btn btn-primary">search</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
+{{#each message}}
+    <div class="col-lg-3 shadow-bottom-sm home-feed-md margin-top-sm">
+
+
+        <div>
+            {{this.content}}
+        </div>
+        <div>
+           Izprateno ot : {{this.author.fullName}}
+        </div>
+
+        <h5>{{this.date}}</h5>
+
+        <a class="btn btn-danger btn-xs"
+           href="/message/delete/{{this._id}}">Delete Message &raquo;</a>
+        <a class="btn btn-success btn-xs"
+           href="/message/answer/{{this._id}}">Answer &raquo;</a>
+
+    </div>
+{{/each}}
+
+
+
+{{#if noMessage}}
+    <h5>Nqma komentari</h5>
+{{/if}}
+
+

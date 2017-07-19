@@ -1,0 +1,40 @@
+
+
+<div class="form-group">
+    <div class="well">
+
+        <form class="form-horizontal">
+    <div class="row">
+    <label class="col-sm-4 control-label" for="inputFullName">Full Name:{{user.fullName}}</label>
+    </div>
+    <div class="row">
+    <label class="col-sm-4 control-label" for="inputFullName">Email adress:{{user.email}}</label>
+    </div>
+    <div class="row">
+    <label class="col-sm-4 control-label" for="inputFullName">Articles:{{user.articles.length}}</label>
+    </div>
+    <div class="row">
+    <label class="col-sm-4 control-label" for="inputFullName">Comments:{{user.comment.length}}</label>
+    </div>
+    <div class="row">
+    <label class="col-sm-4 control-label" for="inputFullName">liked:{{user.liked.length}}</label>
+    </div>
+     <div class="row">
+    <label class="col-sm-4 control-label" for="inputFullName">Message:{{user.message.length}}</label>
+     </div>
+
+            <div class="row">
+                <img src="../../public/uploads/{{user.avatar}}.jpg"alt="some_text" style="width:304px;height:228px;"/>
+            </div>
+
+
+
+
+        </form>
+    </div>
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <input type="file" name="upload" multiple>
+        <input type="submit" value="UploadProfilePicture">
+    </form>
+
+</div>
