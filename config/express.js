@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 const passport = require('passport');
 
+var flash = require('express-flash')
+
 
 
 module.exports = (app, config) => {
@@ -20,6 +22,7 @@ module.exports = (app, config) => {
 
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended: true}));
+    app.use(flash());
 
 
 

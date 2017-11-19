@@ -111,6 +111,7 @@ module.exports = (app) => {
 
 
 
+
     app.get('/admin/user/all', adminController.user.all);
 
     app.get('/admin/user/edit/:id', adminController.user.editGet);

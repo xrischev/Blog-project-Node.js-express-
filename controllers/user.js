@@ -54,6 +54,7 @@ module.exports = {
                                 return;
                             }
 
+                            req.flash('info', 'vie ste registriran');
                             res.redirect('/');
                         })
 
@@ -90,12 +91,22 @@ module.exports = {
                     delete req.session.returnUrl;
                 }
 
+                loginArgs.errorasdf='error from outsude'
+
+                var flash = require('express-flash')
+
+
+                req.flash('info', 'vie ste loognat');
                 res.redirect(returnUrl);
+
+
             })
         })
     },
 
     logout: (req, res) => {
+
+        req.flash('info', 'vie ste logout');
         req.logOut();
         res.redirect('/');
     },
@@ -237,7 +248,9 @@ module.exports = {
 
         let logUser=req.user._id
 
+
         User.findById(logUser).then(user=>{
+            console.log(user)
             res.render('user/details',{user:user})
         })
 
