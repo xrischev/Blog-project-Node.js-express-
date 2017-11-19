@@ -12,7 +12,7 @@ let userSchema = mongoose.Schema(
         liked:[{type: mongoose.Schema.Types.ObjectId, ref: 'Liked'}],
         articles: [{type: mongoose.Schema.Types.ObjectId, ref: 'Article'}],
         roles: [{type: mongoose.Schema.Types.ObjectId, ref: 'Role'}],
-        avatar:{type: String,  unique: true},
+        avatar:{type: String},
         salt: {type: String, required: true}
     }
 );

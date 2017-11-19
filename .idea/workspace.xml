@@ -2,156 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="280306d9-ed72-4c6b-9064-37a27eeec051" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/vows" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/vows.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/diff/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/diff/diff.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/diff/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eyes/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eyes/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eyes/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eyes/lib/eyes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eyes/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/eyes/test/eyes-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/examples/g.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/examples/usr-local.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/glob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/oh-my-glob.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/00-setup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/bash-comparison.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/bash-results.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/cwd-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/empty-set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/error-callback.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/globstar-match.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/mark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/negation-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/new-glob-optional-options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/nocase-nomagic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/pause-resume.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/readme-issue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/root-nomount.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/stat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/glob/test/zz-cleanup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/fs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/graceful-fs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/polyfills.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/test/max-open.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/test/open.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/test/readdir-sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/graceful-fs/test/write-then-read.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/CONTRIBUTORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/lib/lru-cache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/test/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/test/foreach.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/test/memory-leak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lru-cache/test/serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/minimatch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/test/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/test/brace-expand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/test/caching.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/test/defaults.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/minimatch/test/extglob-ending-with-state-char.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/natives/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/natives/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/natives/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/.settings/.jsdtscope" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/lib/session/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/lib/session/session.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/lib/session/storage/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/lib/session/storage/memcached.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/lib/session/storage/memory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/test/session/session.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/session/test/session/storage/base.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sigmund/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sigmund/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sigmund/bench.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sigmund/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sigmund/sigmund.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sigmund/test/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/bin/vows" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/assert/error.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/assert/macros.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/assert/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/utils/nopstream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/console.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/coverage/file.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/coverage/fragments/coverage-foot.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/coverage/fragments/coverage-head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/coverage/report-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/coverage/report-json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/coverage/report-plain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/coverage/report-xml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/extras.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/reporters/dot-matrix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/reporters/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/reporters/silent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/reporters/spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/reporters/tap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/reporters/watch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/reporters/xunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/lib/vows/suite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/VowsCamelCaseTest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/assert-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/c-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/experimental/gh-325.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/fixtures/isolate/failing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/fixtures/isolate/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/fixtures/isolate/passing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/fixtures/isolate/stderr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/fixtures/supress-stdout/output.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/isolate-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/reporters/reporters-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/supress-stdout-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/vows-error-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/vows-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/vows/test/vows_underscore_test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.js" afterPath="$PROJECT_DIR$/config/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/express.js" afterPath="$PROJECT_DIR$/config/express.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.js" afterPath="$PROJECT_DIR$/config/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/user.js" afterPath="$PROJECT_DIR$/controllers/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home/index.hbs" afterPath="$PROJECT_DIR$/views/home/index.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.hbs" afterPath="$PROJECT_DIR$/views/layout.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/user/details.hbs" afterPath="$PROJECT_DIR$/views/user/details.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/User.js" afterPath="$PROJECT_DIR$/models/User.js" />
     </list>
     <ignored path="SoftUniBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -204,6 +55,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="User.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/User.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -214,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -239,16 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="202">
               <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/home/article.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -331,7 +182,6 @@
         <option value="$PROJECT_DIR$/views/comment/edit.hbs" />
         <option value="$PROJECT_DIR$/views/comment/delete.hbs" />
         <option value="$PROJECT_DIR$/controllers/article.js" />
-        <option value="$PROJECT_DIR$/models/User.js" />
         <option value="$PROJECT_DIR$/views/user/details.hbs" />
         <option value="$PROJECT_DIR$/views/home/index.hbs" />
         <option value="$PROJECT_DIR$/views/layout.hbs" />
@@ -341,6 +191,7 @@
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/models/User.js" />
       </list>
     </option>
   </component>
@@ -407,6 +258,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Blog-project-Node.js-express-" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-project-Node.js-express-" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-project-Node.js-express-" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -583,12 +448,12 @@
       <workItem from="1500025787601" duration="16040000" />
       <workItem from="1500124670701" duration="9007000" />
       <workItem from="1500304675591" duration="18478000" />
-      <workItem from="1511109033001" duration="7351000" />
+      <workItem from="1511109033001" duration="7953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322540000" />
+    <option name="totallyTimeSpent" value="323142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +473,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25969645" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2877429" sideWeight="0.11547344" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2913257" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2913257" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -838,14 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/uploads/1111.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1001,6 +858,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
           <folding />
         </state>
       </provider>
