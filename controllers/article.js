@@ -43,6 +43,8 @@ module.exports = {
             let tagNames = articleArgs.tagNames.split(/\s+|,/).filter(tag => {return tag});
             initializeTags(tagNames, article.id);
 
+            req.flash('info', 'Message : You added an article successfully ');
+
             article.prepareInsert();
             res.redirect('/');
         });
@@ -187,6 +189,8 @@ module.exports = {
                             category.save();
                         }
 
+                        req.flash('info', 'Message : You edited this article!');
+
                         res.redirect(`/article/details/${id}`);
                     });
                 /*});*/
@@ -252,6 +256,9 @@ module.exports = {
 
 
         Article.findOneAndRemove({_id: id}).populate('author').then(article => {
+
+            req.flash('info', 'Message : You deleted this article!');
+
             article.prepareDelete();
             res.redirect('/');
         })

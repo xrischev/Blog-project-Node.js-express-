@@ -1,40 +1,58 @@
 
 
-<div class="form-group">
-    <div class="well">
+<div class="row">
+    <div class="form-group">
+        <div class="well">
+    <div class="col-sm-4">
 
-        <form class="form-horizontal">
-    <div class="row">
-    <label class="col-sm-4 control-label" for="inputFullName">Full Name:{{user.fullName}}</label>
-    </div>
-    <div class="row">
-    <label class="col-sm-4 control-label" for="inputFullName">Email adress:{{user.email}}</label>
-    </div>
-    <div class="row">
-    <label class="col-sm-4 control-label" for="inputFullName">Articles:{{user.articles.length}}</label>
-    </div>
-    <div class="row">
-    <label class="col-sm-4 control-label" for="inputFullName">Comments:{{user.comment.length}}</label>
-    </div>
-    <div class="row">
-    <label class="col-sm-4 control-label" for="inputFullName">liked:{{user.liked.length}}</label>
-    </div>
-     <div class="row">
-    <label class="col-sm-4 control-label" for="inputFullName">Message:{{user.message.length}}</label>
-     </div>
 
-            <div class="row">
-                <img src="/uploads/{{user.avatar}}.jpg"alt="some_text" style="width:304px;height:228px;"/>
+                <form class="form-horizontal">
+                    <div class="row">
+                        <label class="col-sm-4 control-label" for="inputFullName">Full Name:{{user.fullName}}</label>
+                    </div>
+                    <div class="row">
+                        <label class="col-sm-4 control-label" for="inputFullName">Email adress:{{user.email}}</label>
+                    </div>
+                    <div class="row">
+                        <label class="col-sm-4 control-label" for="inputFullName">Articles:{{user.articles.length}}</label>
+                    </div>
+                    <div class="row">
+                        <label class="col-sm-4 control-label" for="inputFullName">Comments:{{user.comment.length}}</label>
+                    </div>
+                    <div class="row">
+                        <label class="col-sm-4 control-label" for="inputFullName">liked:{{user.liked.length}}</label>
+                    </div>
+                    <div class="row">
+                        <label class="col-sm-4 control-label" for="inputFullName">Message:{{user.message.length}}</label>
+                    </div>
+                </form>
             </div>
+            <form action="/upload" enctype="multipart/form-data" method="post">
+                <input type="file" name="upload" multiple>
+                <input type="submit" value="UploadProfilePicture">
+            </form>
 
+    <div class="col-sm-8">
+        <div>
+            <h2>Profile picture</h2>
+            <div>
+                {{#if tryAvatar}}
+                    <div class="row">
+                        <img src="/uploads/{{user.avatar}}.jpg"alt="some_text" style="width:304px;height:228px;"/>
+                    </div>
+                {{/if}}
 
+                {{#unless tryAvatar}}
+                    <div class="row">
+                        <img src="/uploads/withoutAvatar.png"alt="some_text" style="width:304px;height:228px;"/>
+                    </div>
+                {{/unless}}
+            </div>
+        </div>
+</div>
 
-
-        </form>
+        </div>
     </div>
-    <form action="/upload" enctype="multipart/form-data" method="post">
-        <input type="file" name="upload" multiple>
-        <input type="submit" value="UploadProfilePicture">
-    </form>
 
 </div>
+

@@ -28,6 +28,7 @@ module.exports= {
                             Article.findById(idArticle).then(article => {
 
 
+                                req.flash('info', 'Message : You liked this article!');
 
                                 article.likes.push(articleLikes._id)
                                 article.save()
@@ -38,8 +39,8 @@ module.exports= {
 
                 }
                 else{
-                    console.log('vutre')
-                    res.render('article/error')
+                    req.flash('info', 'Message : You are liked this article before!');
+                    res.redirect(`/category/${catecoryId}`)
                 }
 
             })

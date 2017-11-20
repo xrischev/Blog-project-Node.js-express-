@@ -9,12 +9,8 @@
                     <p>
                         {{ this.content }}
                     </p>
-                    <p>
-                        {{#each this.tags }}
-                            <a class="btn btn-default btn-xs"
-                               href="/tag/{{this.name}}">{{ this.name }}</a>
-                        {{/each}}
-                    </p>
+
+
                     <small class="author">
                         {{ this.author.fullName }}
                     </small>

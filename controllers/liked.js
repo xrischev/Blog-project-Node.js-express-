@@ -29,6 +29,7 @@ module.exports={
                     }
 
                     if(inSide){
+                        req.flash('info', 'Message : You are liked this comment before!');
                         res.redirect(`/article/details/${articleId}`)
                         return;
                     }
@@ -49,7 +50,7 @@ module.exports={
                         user.save()
 
                         Comment.update({_id:commentId},{$set:{likes:likes}}).then(update=>{
-
+                            req.flash('info', 'Message : You liked this comment!');
                             res.redirect(`/article/details/${articleId}`)
                         })
 

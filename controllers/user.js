@@ -54,7 +54,7 @@ module.exports = {
                                 return;
                             }
 
-                            req.flash('info', 'vie ste registriran');
+                            req.flash('info', 'Message : Now you are registered!');
                             res.redirect('/');
                         })
 
@@ -96,7 +96,8 @@ module.exports = {
                 var flash = require('express-flash')
 
 
-                req.flash('info', 'vie ste loognat');
+                req.flash('info', 'Message : Now you are logging!');
+
                 res.redirect(returnUrl);
 
 
@@ -106,7 +107,7 @@ module.exports = {
 
     logout: (req, res) => {
 
-        req.flash('info', 'vie ste logout');
+        req.flash('info', 'Message : Now you are log out!');
         req.logOut();
         res.redirect('/');
     },
@@ -156,6 +157,8 @@ module.exports = {
 
                 user.message.push(message._id)
                 user.save()
+
+                req.flash('info', 'Message : You successfully send message!');
 
                 res.redirect('/user/message')
             })
@@ -250,8 +253,23 @@ module.exports = {
 
 
         User.findById(logUser).then(user=>{
-            console.log(user)
-            res.render('user/details',{user:user})
+
+            let haveAvatar=false
+
+            if(user.avatar==='') {
+                haveAvatar == false
+            }
+            else{
+                haveAvatar=true
+            }
+
+
+            console.log(haveAvatar)
+
+
+
+
+            res.render('user/details',{user:user,tryAvatar:haveAvatar})
         })
 
 
@@ -287,6 +305,8 @@ module.exports = {
             form.on('file', function (name, file){
                 console.log('Uploaded ' + userEmails+'.jpg');
             });
+
+            req.flash('info', 'Message : You successfully uploaded your photo!');
 
             res.sendFile(__dirname)
 

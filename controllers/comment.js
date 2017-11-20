@@ -37,6 +37,7 @@ module.exports={
                 user.save()
             })
 
+            req.flash('info', 'Message : You created comment!');
 
             res.redirect(`/article/details/${id}`)
         })
@@ -81,17 +82,16 @@ module.exports={
                     comment.prepareDelete();
 
 
+
                     res.redirect(`/article/details/${articleId}`)
                 })
             })
 
         Liked.find({'comment':id}).then(liked=>{
-            console.log(liked)
+            req.flash('info', 'Message : You deleted this comment!');
 
             for(let like of liked){
-                console.log(like._id)
                 Liked.findById({_id:like._id}).remove().then(liked1=>{
-
                 })
             }
         })
@@ -112,6 +112,7 @@ module.exports={
             let commentContent=req.body
 
             Comment.update({_id:id},{$set:{content:commentContent.content}}).then(update=>{
+                req.flash('info', 'Message : You edited this comment!');
                 res.redirect(`/article/details/${articleId}`)
             })
         })
